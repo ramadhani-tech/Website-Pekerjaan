@@ -108,3 +108,21 @@ p {
 .pelajari:hover{
     text-shadow: 0 0 1rem rgb(89, 187, 192);
 }
+
+/* klien-personel.php */
+.container-info{
+    background-color: #00282b;
+    padding: 40px;
+    width: 80%;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1rem rgb(0, 191, 255);
+    transition: .5s;
+    margin: 5rem 0;
+}
+.container-info:hover{
+    box-shadow: 0 0 1.5rem rgb(0, 191, 255);
+} 
+.container-info h1{
+    color: #00f0ff;
+    font-size: 2rem;
+}
