@@ -1,0 +1,110 @@
+*{
+    font-size: 1rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #001414;
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    height: 4rem;
+    border-bottom: .2rem solid #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    margin-bottom: 5rem;
+}
+.head h3{
+    color: #00f0ff;
+}
+.head img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-right: .6rem;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    position: absolute;
+    background: #00282b;
+    padding: 40px;
+    width: 80%;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1rem rgb(0, 191, 255);
+    transition: .5s;
+}
+.container:hover{
+    box-shadow: 0 0 1.5rem rgb(0, 191, 255);
+}
+
+h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+h1 span {
+    color: #00f0ff;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+}
+
+.options {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.option {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    color: #fff;
+    transition: .5s;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.client {
+    background-color: #000;
+    box-shadow: 0 0 1rem rgb(0, 255, 55);
+    border: .2rem solid #00ff15;
+    margin-right: 1rem;
+}
+
+.worker {
+    background-color: #000;
+    box-shadow: 0 0 1rem rgb(0, 191, 255);
+    border: .2rem solid #00f0ff;
+}
+.client:hover{
+    box-shadow: 0 0 1.5rem rgb(0, 255, 55);
+}
+.worker:hover{
+    box-shadow: 0 0 1.5rem rgb(0, 191, 255);
+}
+.pelajari{
+    display: inline-block;
+    margin-top: .5rem;
+    font-size: 1rem;
+    color: #00f0ff;
+    text-decoration: none;
+    transition: .3s;
+}
+.pelajari:hover{
+    text-shadow: 0 0 1rem rgb(89, 187, 192);
+}
