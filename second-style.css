@@ -1,0 +1,11 @@
+*{
+    font-size: 20px;
+}
+body{
+    background-color: #001414;
+    color: #fff;
+}
+input{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}

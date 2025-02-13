@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="top">
     <div class="head">
         <img src="foto/Logo Gardina Rovena.png" alt="">
         <h3>Gardina Rovena</h3>
@@ -22,6 +23,14 @@
             <a href="personel.php" class="option worker">Saya Personel</a>
         </div>
         <a href="klien-personel.php" class="pelajari">Pelajari tentang klien dan personel</a>
+    </div>
+</div>
+</div>
+<div class="dokumentasi">
+    <div class="carousel">
+        <img src="foto/Logo Gardina Rovena.png" alt="">
+        <img src="foto/Logo Gardina Rovena.png" alt="">
+        <img src="foto/Logo Gardina Rovena.png" alt="">
     </div>
 </div>
 </body>
