@@ -110,19 +110,52 @@ p {
 }
 
 /* klien-personel.php */
-.container-info{
+.fa-solid{
+    position: absolute;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 2.5rem 2rem;
+    transition: .5s;
+}
+.fa-solid:hover{
+    color: #00f0ff;
+    font-size: 1.8rem;
+}
+.body-klien-personel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+}
+.satu{
     background-color: #00282b;
-    padding: 40px;
+    padding: 2rem;
+    width: 80%;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1rem rgb(0, 255, 21);
+    transition: .5s;
+}
+.satu:hover{
+    box-shadow: 0 0 1.5rem rgb(0, 255, 21);
+}
+.dua{
+    background-color: #00282b;
+    padding: 2rem;
     width: 80%;
     border-radius: 1.5rem;
     box-shadow: 0 0 1rem rgb(0, 191, 255);
     transition: .5s;
-    margin: 5rem 0;
 }
-.container-info:hover{
+.dua:hover{
     box-shadow: 0 0 1.5rem rgb(0, 191, 255);
-} 
+}
 .container-info h1{
     color: #00f0ff;
     font-size: 2rem;
+}
+.container-info p{
+    font-size: 1.2rem;
 }
